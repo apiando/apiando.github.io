@@ -27,7 +27,7 @@ body {
 
 /* Headers */
 header {
-    background: --sage;
+    background: var(--sage);
     color: var(--text-light);
     padding: 0.5rem 0;
     text-align: center;
@@ -45,6 +45,7 @@ h2 {
     font-size: 3rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
+    text-align: center
 }
 
 h3 {
