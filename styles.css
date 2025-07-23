@@ -51,6 +51,12 @@ h3 {
     font-size: 2rem
 }
 
+.tagline {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+
 /* Navigation */
 nav {
     position: sticky;
