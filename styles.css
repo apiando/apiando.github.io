@@ -25,7 +25,7 @@ body {
     padding: 0;
 }
 
-/* Header */
+/* Headers */
 header {
     background: linear-gradient(to right, var(--sage-dark), var(--sage));
     color: var(--text-light);
@@ -34,7 +34,12 @@ header {
 }
 
 header h1 {
+    font-size: 2rem;
     margin-bottom: 0.5rem;
+}
+
+h1, h2 {
+    font-family: 'More Sugar', sans-serif;
 }
 
 /* Navigation */
@@ -114,8 +119,3 @@ a {
 a:hover {
     color: #4c6a3d;
 }
-
-h1, h2, h3 {
-    font-family: 'More Sugar', sans-serif;
-}
-
