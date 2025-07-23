@@ -147,3 +147,9 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
 }
 
+/* Dividers */
+hr {
+    border: none;
+    border-top: 1px solid var(--sage-dark);
+    margin: 1rem 0;
+}
