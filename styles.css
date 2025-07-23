@@ -47,6 +47,10 @@ h2 {
     margin-bottom: 0rem;
 }
 
+h3 {
+    font-size: 2rem
+}
+
 /* Navigation */
 nav {
     position: sticky;
