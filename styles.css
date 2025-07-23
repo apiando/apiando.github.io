@@ -8,6 +8,13 @@
     --background: #f6f8f4;
 }
 
+@font-face {
+    font-family: 'More Sugar';
+    src: url('moresugar.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* General body styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -107,3 +114,8 @@ a {
 a:hover {
     color: #4c6a3d;
 }
+
+h1, h2, h3 {
+    font-family: 'More Sugar', sans-serif;
+}
+
