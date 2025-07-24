@@ -180,9 +180,15 @@ a:hover {
         font-size: 1.4rem;
     }
 
+    nav {
+        padding: 0.5rem 0;
+    }
+    
     nav a {
-        display: block;
-        margin: 0.5rem 0;
+        display: block;               
+        margin: 0.25rem 0;
+        font-size: 0.75rem;           
+        padding: 0.25rem 0.5rem;
     }
 
     .entry {
