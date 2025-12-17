@@ -236,6 +236,73 @@
             <h2>Projects</h2> 
 
             <div class="entry">
+                <h3>Spark!Bytes</h3>
+                <p class="location">In-Class Project | September — December 2025</p>
+            
+                <p>
+                    Spark!Bytes is a full-stack platform designed to reduce food waste at Boston University
+                    by connecting students with surplus food from campus events. The application allows
+                    organizers to post events and students to browse, reserve, and manage food pickups
+                    through a secure and user-friendly interface.
+                </p>
+            
+                <ul>
+                    <li>
+                        Built a responsive frontend using Next.js and React with authentication,
+                        role-based access control, and dynamic event pages
+                    </li>
+                    <li>
+                        Developed a FastAPI backend integrated with Supabase for authentication,
+                        database management, and admin workflows
+                    </li>
+                    <li>
+                        Implemented automated testing using Pytest (backend) and Jest with React Testing Library (frontend)
+                    </li>
+                    <li>
+                        Containerized the backend with Docker and deployed the application using modern cloud tooling
+                    </li>
+                </ul>
+            
+                <p>
+                    <strong>Live Links:</strong><br>
+                    <a href="https://cs391-project.onrender.com" target="_blank">
+                        Frontend Deployment
+                    </a>
+                    &nbsp;|&nbsp;
+                    <a href="https://cs391-project.vercel.app" target="_blank">
+                        Backend API
+                    </a>
+                </p>
+            </div>
+
+            <div class="entry">
+                <h3>Nasdaq-100 ARIMA–GARCH Time-Series Model</h3>
+                <p class="location">In-Class Project | September — December 2025</p>
+            
+                <p>
+                    Built and evaluated an ARIMA–GARCH model to analyze daily Nasdaq-100 log returns (2003–2019),
+                    focusing on short-run return dynamics and volatility clustering during calm and turbulent market periods.
+                </p>
+                
+                <ul>
+                    <li>
+                          Pulled and preprocessed historical Nasdaq-100 data, transformed prices to log returns, and validated stationarity
+                          using ADF, PP, DF-GLS, and KPSS unit root tests
+                    </li>
+                    <li>
+                        Selected the ARMA mean specification using AIC/BIC and ACF/PACF diagnostics to capture short-run dependence in returns
+                    </li>
+                    <li>
+                          Detected ARCH effects with Engle LM and Ljung–Box tests on squared residuals, motivating conditional variance modeling
+                    </li>
+                    <li>
+                          Estimated and compared ARCH/GARCH specifications, validated model adequacy using squared standardized residual diagnostics,
+                          and visualized conditional volatility over time
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="entry">
                 <h3>Application Atlas</h3>
                 <p class="location">Personal Project | May 2025 — Present</p>
                 <ul>
@@ -493,4 +560,5 @@
     </footer>
 </body>
 </html>
+
 
