@@ -1,141 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aaron Piando | Higher Education & Technology Professional</title>
-<meta name="description" content="Aaron Piando — Higher education professional, admissions leader, and technologist.">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aaron Piando — Personal Website">
+    <title>Aaron Piando</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
 </head>
 <body>
+    <header>
+        <h1>Aaron Piando</h1>
+        <p class="tagline">Driven by curiosity, creativity, and a passion for technology and social impact</p>
+    </header>
 
-<header class="hero">
-    <nav>
-        <div class="logo">AP</div>
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
+    <nav class="desktop-nav">
+        <a href="#summary">Summary</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Professional Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#extracurriculars">Extracurriculars</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <details class="mobile-nav">
+        <summary>Menu ☰</summary>
+        <div>
+            <a href="#summary">Summary</a>
             <a href="#education">Education</a>
+            <a href="#experience">Professional Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#extracurriculars">Extracurriculars</a>
             <a href="#contact">Contact</a>
         </div>
-    </nav>
+    </details>
 
-    <div class="hero-content">
-        <img src="profile.png" alt="Aaron Piando">
-        <div>
-            <p class="eyebrow">Higher Education • Admissions • Technology</p>
-            <h1>Aaron Piando</h1>
-            <p class="lead">
-                Boston University graduate (B.A. Computer Science & Economics, Cum Laude)
-                blending higher education leadership, student success, data analysis,
-                and software development to create meaningful impact.
+    <main>
+        <section id="summary">
+            <h2>About Me</h2> 
+
+            <img src="profile.png" alt="Aaron Piando" class="profile-img">
+            
+            <p>
+                I’m a senior at Boston University majoring in Computer Science & Economics with a minor in Mathematics, graduating 
+                May 2026. I currently work across BU’s Office of Admissions and Center for Career Development, where I support 
+                student access, outreach, and professional development through admissions operations, campus tours, diversity 
+                initiatives, and career programming.
             </p>
+            <p>
+                Alongside my higher education work, I bring a strong technical foundation in data analysis, software development, 
+                and applied machine learning, with experience using Python, R, SQL, Stata, and web frameworks to analyze large 
+                datasets and build data-driven tools. My academic and project work explores how technology and data can be 
+                leveraged to improve decision-making, equity, and institutional outcomes.
+            </p>
+            <p>
+                I’m passionate about student success, access, and mission-driven work, and I’m seeking opportunities in higher 
+                education, particularly in admissions, student affairs, institutional research, or education-focused technology, 
+                where I can combine technical skills with a commitment to serving students and communities.            
+            </p>
+        </section>
 
-            <div class="hero-buttons">
-                <a class="btn primary" href="#contact">Let's Connect</a>
-                <a class="btn secondary" href="#projects">View Projects</a>
+        <section id="education">
+            <h2>Academic Experience</h2> 
+
+            <div class="entry">
+                <h3>Boston University <span class="title">Bachelor of Arts, Computer Science & Economics</span></h3>
+                <p class="location">Boston, MA | Expected May 2026</p>
+                <ul>
+                    <li>
+                        Maintained a cumulative GPA of 3.83/4.00, earning Dean's List honors for three semesters (Fall '23, Fall '24, 
+                        Spring '25) 
+                    </li>
+                    <li>
+                        Completed BU London Study Abroad (LSA) program in Fall '24, engaging with professors from local universities
+                        while being immersed in British culture and history 
+                    </li>
+                    <li>
+                        Named IDEA Scholar by College Access & Student Success (CASS) program, honoring BU students from communities
+                        underrepresented in higher education
+                    </li>
+                </ul>
             </div>
-        </div>
-    </div>
-</header>
 
-<main>
-<section id="about" class="card">
-    <h2>About Me</h2>
-    <p>
-        I recently graduated from Boston University with a Bachelor of Arts in
-        Computer Science & Economics and earned Cum Laude honors. My experience spans
-        admissions, career development, student success, data analysis, and software engineering.
-    </p>
+            <div class="entry">
+                <h3>Mathworks at Texas State University <span class="title">Summer Research Program</span></h3>
+                <p class="location">San Marcos, TX | Summer 2021</p>
+                <ul>
+                    <li>
+                        Contributed to “Using Technology to Capture Classroom Interactions: The Design, Validation, and Dissemination 
+                        of a Formative Assessment of Instruction Tool for Diverse K-8 Mathematics Classrooms,” a research initiative 
+                        led by Dr. Kate Melhuish
+                    </li>
+                    <li>
+                        Implemented innovative process mining software, including ProM and Disco, to investigate relationship between
+                        patterns in classroom behaviors and peformance on standardized math exams, presenting finalized process 
+                        models alongside team members at virtual Mathworks summer research symposium
+                    </li>
+                </ul>
+            </div>
 
-    <p>
-        Across roles in Boston University's Office of Admissions, Center for Career Development,
-        and student leadership initiatives, I have helped students navigate educational opportunities
-        while developing technical skills in Python, SQL, web development, analytics, and machine learning.
-    </p>
-</section>
+            <div class="entry">
+                <h3>IDEA Quest College Preparatory <span class="title">High School Diploma</span></h3>
+                <p class="location">Edinburg, TX | Class of 2022</p>
+                <ul>
+                    <li>
+                        Achievements include Valedictorian, AP Scholar with Distinction, National Merit Commended Student, President
+                        of local Mu Alpha Theta chapter, Security First Credit Union Scholarship, Give Me 5 Scholarship
+                    </li>
+                    <li>
+                        Received individual and team UIL awards at the regional and state level for Number Sense, Mathematics, Computer 
+                        Science Extemporaneous Speaking, Copy Editing contests
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
 
-<section id="experience" class="card">
-    <h2>Experience Highlights</h2>
+        <section id="experience">
+            <h2>Professional Experience</h2> 
 
-    <div class="grid">
-        <div class="highlight">
-            <h3>Boston University Admissions</h3>
-            <p>Led tours, information sessions, visitor operations, staff training, and scheduling for prospective students and families.</p>
-        </div>
+            <div class="entry">
+                <h3>Office for Student Programs & Leadership at Boston University <span class="title">Boston, MA</h3>
+                <p class="location">First-Year Success Instructor | May 2025 - Present</p>
+                <ul>
+                    <li>
+                        Coteach FY101: The First Year Experience, a course for incoming freshmen BU students which involves weekly
+                        discussions, activities, field trips to explore the social, academic and cultural dimensions of student life
+                    </li>
+                    <li>
+                        Support community building to support first-year students' success while setting them up for a fuller, richer
+                        experience at BU by sharing academic programs, career development resources, and other unique opportunities
+                    </li>
+                </ul>
+            </div>
 
-        <div class="highlight">
-            <h3>Career Development Leadership</h3>
-            <p>Managed student marketing teams, reviewed resumes, planned large-scale programs, and supported professional development initiatives.</p>
-        </div>
+            <div class="entry">
+                <h3>Office of Admissions at Boston University <span class="title">Boston, MA</h3>
+                <p class="location">Diversity Outreach Board Member | February 2025 - Present</p>
+                <ul>
+                    <li>
+                        Support multicultural admissions through initiatives like Mosaic Community Welcome and Decision Day 
+                        Phoneathon to promote the enrollment and matriculation of students from underrepresented and 
+                        underprivileged backgrounds
+                    </li>
+                </ul>
+                <p class="location">Undergraduate Admissions Representative | May 2024 - Present</p>
+                <ul>
+                    <li>
+                        Manage visitor center operations by maintaining event registrations and applicant profiles through 
+                        Salesforce TargetX
+                    </li>
+                    <li>
+                        Resolve 10+ daily inquiries via phone and email, offering tailored support to enhance visitors’ experience
+                        on campus
+                    </li>
+                    <li>
+                        Lead campus tours for groups of 10-30 visitors and information sessions for audiences of 100-150 visitors, 
+                        sharing personal stories that showcase student life at BU and highlight academic opportunities and 
+                        on-campus resources
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <h3>Center for Career Development at Boston University <span class="title">Boston, MA</h3>
+                <p class="location">Career Community Coordinator | January — May 2025</p>
+                <ul>
+                    <li>
+                        Partnered with College Success Coaches to organize inaugural Public Service & Social Impact Networking 
+                        Night, bringing together 78 students and 16 professionals to share insights on career advice and 
+                        professional development
+                    </li>
+                </ul>
+                <p class="location">Marketing Team Lead | January — May 2024</p>
+                <ul>
+                    <li>
+                        Innovated social media strategy by creating content schedule, blending short-form video, evergreen media, 
+                        and event promotional material to maximize audience reach and user engagement 
+                    </li>
+                    <li>
+                        Supervised a team of 6 members by assigning marketing campaigns, conducting monthly individual check-ins, 
+                        and leading weekly meetings to ensure successful completion of assigned tasks and encourage creativity 
+                        and innovation 
+                    </li>
+                    <li>
+                        Boosted social media outcomes, amassing over 4 million reached accounts and 200,000 engagements in 4 months
+                    </li>
+                </ul>
+                <p class="location">Events & Programming Team Member | October 2022 — December 2023</p>
+                <ul>
+                    <li>
+                        Reviewed 100+ resumes, cover letters, and LinkedIn profiles, providing students with strategic and tailored
+                        feedback to help them market their skills and experiences to employers and improve their candidacy for jobs
+                        and internships
+                    </li>
+                    <li>
+                        Coordinated event logistics for Professional Clothing Closet Fashion Show, Alumni Connections Networking 
+                        Night, and Internship Insights Panel, engaging 300+ students with career development resources and 
+                        opportunities
+                    </li>
+                </ul>
+            </div>
 
-        <div class="highlight">
-            <h3>Student Success & First-Year Experience</h3>
-            <p>Supported incoming students through mentoring, instruction, community-building, and campus engagement programs.</p>
-        </div>
+            <div class="entry">
+                <h3>South Texas Ideas <span class="title">Edinburg, TX</h3>
+                <p class="location">Web Designer | August 2020 — June 2022</p>
+                <ul>
+                    <li>
+                        Designed and developed a comprehensive Wix website, utilizing data on user behavior to optimize navigation 
+                        and enhance user experience, ensuring accessible and engaging content for STXi's diverse audience
+                    </li>
+                    <li>
+                        Integrated multimedia content, including images, videos, and interactive features, to create an immersive 
+                        experience that increased user engagement, communicated STXi's mission, and promoted the organization's
+                        cultural events
+                    </li>
+                    <li>
+                        Regularly updated and maintained the website to reflect ongoing projects and activities, using web 
+                        analytics to track performance and ensure ongoing engagement from visitors and supporters
+                    </li>
+                </ul>
+                <p class="location">Outreach Team Member | May 2018 — June 2020</p>
+                <ul>
+                    <li>
+                        Orchestrated the coordination of over 200 youth participants for the annual South Texas Ideas (STXi) 
+                        festival, demonstrating strong organizational and project management skills in handling large-scale 
+                        community events
+                    </li>
+                    <li>
+                        Established the STXi Ambassador Program, involving the recruitment of high school students from all over
+                        the Rio Grande Valley to promote festival attendance and widen the organization's geographical reach 
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-        <div class="highlight">
-            <h3>Technology & Data</h3>
-            <p>Built full-stack applications, machine learning projects, and data-driven research using modern development tools.</p>
-        </div>
-    </div>
-</section>
+        <section id="projects">
+            <h2>Projects</h2> 
 
-<section id="projects" class="card">
-    <h2>Featured Projects</h2>
+            <div class="entry">
+                <h3>Spark!Bytes</h3>
+                <p class="location">In-Class Project | September — December 2025</p>
+            
+                <p>
+                    Spark!Bytes is a full-stack platform designed to reduce food waste at Boston University
+                    by connecting students with surplus food from campus events. The application allows
+                    organizers to post events and students to browse, reserve, and manage food pickups
+                    through a secure and user-friendly interface.
+                </p>
+            
+                <ul>
+                    <li>
+                        Built a responsive frontend using Next.js and React with authentication,
+                        role-based access control, and dynamic event pages
+                    </li>
+                    <li>
+                        Developed a FastAPI backend integrated with Supabase for authentication,
+                        database management, and admin workflows
+                    </li>
+                    <li>
+                        Implemented automated testing using Pytest (backend) and Jest with React Testing Library (frontend)
+                    </li>
+                    <li>
+                        Containerized the backend with Docker and deployed the application using modern cloud tooling
+                    </li>
+                </ul>
+            
+                <p>
+                    <strong>Live Links: </strong>
+                    <a href="https://cs391-project.onrender.com" target="_blank">
+                        Backend API
+                    </a>
+                    &nbsp;|&nbsp;
+                    <a href="https://cs391-project.vercel.app" target="_blank">
+                        Frontend Deployment
+                    </a>
+                </p>
+            </div>
 
-    <div class="project">
-        <h3>Spark!Bytes</h3>
+            <div class="entry">
+                <h3>Nasdaq-100 ARIMA–GARCH Time-Series Model</h3>
+                <p class="location">In-Class Project | September — December 2025</p>
+            
+                <p>
+                    Built and evaluated an ARIMA–GARCH model to analyze daily Nasdaq-100 log returns (2003–2019),
+                    focusing on short-run return dynamics and volatility clustering during calm and turbulent market periods.
+                </p>
+                
+                <ul>
+                    <li>
+                          Pulled and preprocessed historical Nasdaq-100 data, transformed prices to log returns, and validated stationarity
+                          using ADF, PP, DF-GLS, and KPSS unit root tests
+                    </li>
+                    <li>
+                        Selected the ARMA mean specification using AIC/BIC and ACF/PACF diagnostics to capture short-run dependence in returns
+                    </li>
+                    <li>
+                          Detected ARCH effects with Engle LM and Ljung–Box tests on squared residuals, motivating conditional variance modeling
+                    </li>
+                    <li>
+                          Estimated and compared ARCH/GARCH specifications, validated model adequacy using squared standardized residual diagnostics,
+                          and visualized conditional volatility over time
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <h3>Application Atlas</h3>
+                <p class="location">Personal Project | May 2025 — Present</p>
+                <ul>
+                    <li>
+                        Designing and developing a centralized platform to help high school students track college applications
+                        across systems like Common App, ApplyTexas, and Questbridge 
+                    </li>
+                    <li>
+                        Integrating an AI-powered chatbot trained on college advising best practices, offering personalized guidance
+                        on essays and financial aid, including FAFSA, CSS Profile, TASFA
+                    </li>
+                    <li>
+                        Prioritizing accessibility and equity by creating a student-first interface with a mobile-friendly design
+                        and built-in support for underprivileged communities
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Personal Website</h3>
+                <p class="location">Personal Project | May — August 2025</p>
+                <ul>
+                    <li>
+                        Developed a clean, static website using HTML and CSS to showcase academic background, projects, and 
+                        leadership experience 
+                    </li>
+                    <li>
+                        Demonstrated front-end design, content organization, and branding skills to create a professional online 
+                        presence for networking and career growth
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Fake News Inspector</h3> 
+                <p class="location">In-Class Project | January — May 2025</p>
+                <ul>
+                    <li>
+                        Developed and fine-tuned a RoBERTa-based text classification model using Hugging Face Transformers to 
+                        detect fake news, demonstrating proficiency in NLP, PyTorch, and model evaluation techniques
+                    </li>
+                    <li>
+                        Engineered a full-stack Flask application with interactive visualizations and a user-friendly UI for 
+                        inspecting model predictions, combining backend development with frontend integration                    
+                    </li>
+                    <li>
+                        Improved data preprocessing and training efficiency by implementing stratified splits, optimizing training 
+                        arguments, and contributing to reproducibility through GitHub workflows and dependency management
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Study Spot Finder</h3>
+                <p class="location">In-Class Project | April — May 2025</p>
+                <ul>
+                    <li>
+                        Designed and developed a full-stack Django web application that enables students to recommend, review, and 
+                        discover study spaces, fostering community-based decision-making and resource sharing 
+                    </li>
+                    <li>
+                        Implemented robust user features including authentication, friend networks, favoriting, and dynamic forms 
+                        using Django views, models, and templates, demonstrating strong backend and frontend integration skills                    
+                    </li>
+                    <li>
+                        Built customizable filtering and search functionality for study spots by neighborhood, showcasing proficiency 
+                        in data querying, clean UI design, and user-centric problem solving
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Panel Analysis of Relation Between Income Inequality and Internet Access</h3>
+                <p class="location">In-Class Project | March — May 2025</p>
+                <ul>
+                    <li>
+                        Applied advanced econometric techniques including fixed effects modeling, Hausman testing, and joint F-tests 
+                        to evaluate the relationship between internet access and income inequality across countries using unbalanced 
+                        panel data 
+                    </li>
+                    <li>
+                        Cleaned, structured, and analyzed large-scale cross-national datasets from World Bank Database using Stata, 
+                        demonstrating proficiency in data wrangling, variable transformation, and statistical interpretation                    
+                    </li>
+                    <li>
+                        Identified a statistically significant but modest relationship between internet access and income inequality 
+                        using fixed effects regression, showing that a 1% increase in internet penetration is associated with a 
+                        0.048-point decrease in the Gini index
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Student Spender</h3>
+                <p class="location">In-Class Project | October — December 2024</p>
+                <ul>
+                    <li>
+                        Co-developed a full-stack budgeting web app for study abroad students using Flask, JavaScript, and SQLite, 
+                        with features including user authentication, expense tracking, and personalized budget planning via OpenAI API 
+                        integration
+                    </li>
+                    <li>
+                        Led backend and database development, optimizing data models and queries, managing user sessions, and resolving 
+                        performance issues through exception handling and debugging                    
+                    </li>
+                    <li>
+                        Enhanced collaboration and deployment through Git/GitHub version control, Docker containerization, and frontend 
+                        testing with Playwright to ensure a seamless and reliable user experience
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Compiling Immigration Raid Reports</h3>
+                <p class="location">Cross-College Challenge (XCC) | October — December 2023</p>
+                <ul>
+                    <li>
+                        Collaborated with Spark! at the BU Center for Computing & Data Sciences and the Center for Innovation in Social 
+                        Sciences (CISS) to compile immigration raid reports, combining data science and social research to support 
+                        immigrant rights advocacy
+                    </li>
+                    <li>
+                        Used the Google Search API and the gnews Python package to collect news coverage of immigration raids, then 
+                        cleaned and standardized the data using Python and pandas for structured analysis                    
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Econometric Investigation of Correlation Between Economic Output and Education Expenditure</h3>
+                <p class="location">In-Class Project | October — December 2023</p>
+                <ul>
+                    <li>
+                        Applied advanced econometric techniques in Stata, including multiple linear, log-linear, polynomial, and 
+                        log-polynomial models, to examine the relationship between GDP per capita and education expenditure relative 
+                        to GNI using unbalanced panel data
+                    </li>
+                    <li>
+                        Cleaned, transformed, and analyzed World Bank data to ensure accuracy and comparability across countries, 
+                        demonstrating strong command of data wrangling, model selection, and empirical evaluation                    
+                    </li>
+                    <li>
+                        Produced reproducible, policy-relevant insights supported by regression diagnostics and accessible visualizations, 
+                        revealing a diminishing positive relationship that reverses beyond the 4.15 percent GNI expenditure threshold
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>The Untold History of Filipino Nurses Immigrating to the United States</h3>
+                <p class="location">Research Publication | February — August 2023</p>
+                <ul>
+                    <li>
+                        Conducted historical research exploring the migration of Filipino nurses to the United States during the 20th 
+                        century, centering the experiences of my mother and combining archival sources with personal interviews
+                    </li>
+                    <li>
+                        Analyzed cultural, economic, and geopolitical factors shaping the Filipino nursing diaspora, highlighting the 
+                        commercialization of nursing education and challenges faced by immigrant healthcare workers in the US                    
+                    </li>
+                    <li>
+                        Published findings in Kaleidoscope, the undergraduate research journal of BU's Kilachand Honors College, 
+                        presenting a narrative-driven investigation that connected personal storytelling with broader discussions 
+                        of immigration and equity within the nursing profession
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Chummy Education</h3>
+                <p class="location">Freelance Work | May — September 2022</p>
+                <ul>
+                    <li>
+                        Collaborated on a research project led by a Northeastern University EdD candidate, supporting data 
+                        collection on how access to resources influences high school students' engagement with social justice topics
+                    </li>
+                    <li>
+                        Designed and built a user-friendly Wix website to serve as a digital library, curating multimedia resources on 
+                        issues such as LGBTQIA+ rights, climate change, and financial literacy for use in educational settings
+                    </li>
+                    <li>
+                        Leveraged web design and content strategy to promote youth empowerment and civic engagement, demonstrating a 
+                        commitment to using digital tools for education and social impact
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="extracurriculars">
+            <h2>Extracurriculars</h2> 
+
+            <div class="entry">
+                <h3>Griptape</h3>
+                <p class="location">Nonprofit | Youth Empowerment | September 2019 — Present</p>
+                <ul>
+                    <li>
+                        <strong>Next Great Adventure Fellow</strong>: Received $2,000 grant to support career exploration journey, earned by 
+                        completing mini-credentials, informational interviews, job market research centered around professional aspiration
+                        to combine skills in software development and data analytics with passion for education access and social justice
+                    </li>
+                    <li>
+                        <strong>Griptape Champion</strong>: Acted as an accountability partner for four Griptape Challengers throughout their
+                        Challenge, conducting biweekly check-ins to support goal setting, track progress, monitor grant spending, provide 
+                        encouragement as they encountered obstacles
+                    </li>
+                    <li>
+                        <strong>Griptape Challenger</strong>: Received $500 grant to launch the Jopi Learning Community, a student-led 
+                        organization which provided free tutoring, peer mentorship, professional skills workshops to IDEA Quest students
+                        in the face of virtual learning during the Covid-19 Pandemic
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Civics Unplugged</h3>
+                <p class="location">Nonprofit | Civic Engagement | December 2019 — August 2020</p>
+                <ul>
+                    <li>
+                        <strong>CU Fellowship Founding Fellow</strong>: As member of founding fellowship class, attended weekly discussions 
+                        regarding topics including the development of political values, government structure, civic engagement to encourage 
+                        Gen Z involvement in contemporary politics
+                    </li>
+                    <li>
+                        <strong>CU Summer Camp Counselor</strong>: Led weekly meetings with group of four CU Summer Campers to spark conversation 
+                        tied to weekly activities about self-discovery and personal goal setting, culminating in a stronger sense of civic purpose
+                        and desire to contribute to positive social change within their communities
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="contact"> 
+            <h2>Contact Information</h2> 
+            
+            <table class="contact-table">
+                <tr>
+                    <td>Email: <a href="mailto:apiando@bu.edu">apiando@bu.edu</a></td>
+                    <td>LinkedIn: <a href="https://www.linkedin.com/in/apiando" target="_blank">www.linkedin.com/in/apiando</a></td>
+                    <td>GitHub: <a href="https://github.com/apiando" target="_blank">www.github.com/apiando</a></td>
+                </tr>
+            </table>
+            
+        </section>
+
+    </main>
+
+    <footer>
         <p>
-            Full-stack platform that helps reduce food waste by connecting students
-            with surplus food from campus events.
+            &copy; 2025 Aaron Piando <br> 
+            Created using GitHub Pages <br> 
+            Thanks for visiting! :)
         </p>
-    </div>
-
-    <div class="project">
-        <h3>Application Atlas</h3>
-        <p>
-            College application management platform designed to improve access,
-            organization, and advising support for students.
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>Fake News Inspector</h3>
-        <p>
-            NLP-powered web application using a fine-tuned RoBERTa model to identify
-            misinformation and explain predictions.
-        </p>
-    </div>
-</section>
-
-<section id="education" class="card">
-    <h2>Education</h2>
-
-    <div class="education-item">
-        <h3>Boston University</h3>
-        <p>B.A. Computer Science & Economics • Cum Laude • May 2026</p>
-    </div>
-
-    <div class="education-item">
-        <h3>University of Maine</h3>
-        <p>M.A. Organizational Leadership • Expected May 2027</p>
-    </div>
-</section>
-
-<section id="contact" class="card contact">
-    <h2>Contact</h2>
-    <p>Email: ajohannp3@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/apiando</p>
-    <p>GitHub: github.com/apiando</p>
-</section>
-</main>
-
-<footer>
-    <p>© Aaron Piando</p>
-</footer>
-
+    </footer>
 </body>
 </html>
