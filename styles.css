@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'More Sugar';
-    src: url('moresugar.ttf') format('truetype'),
+    src: url('moresugar.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -56,7 +56,7 @@ h3 {
     font-size: 1.25rem;
     font-weight: bold;
     margin-top: 0.25rem;
-    color: #4c6a3d;
+    color: var(--light-blue);
 }
 
 /* Navigation Bar (Desktop) */
@@ -136,7 +136,7 @@ a {
 }
 
 a:hover {
-    color: #4c6a3d;
+    color: #0F2573;
 }
 
 /* Images */
