@@ -1,11 +1,11 @@
 /* Base colors */
 :root {
-    --sage: #9caf88;
-    --sage-dark: #6e8b5e;
-    --sage-light: #cddbc3;
-    --text-dark: #2e2e2e;
-    --text-light: #ffffff;
-    --background: #f6f8f4;
+    --blue: #266CA9;        /* primary blue */
+    --dark-blue: #041D56;   /* deep navy  */
+    --light-blue: #ADE1FB;  /* light blue */
+    --text-dark: #1F2937;
+    --text-light: #FFFFFF;
+    --background: #F7FAFC;
 }
 
 @font-face {
@@ -27,7 +27,7 @@ body {
 
 /* Headers */
 header {
-    background: var(--sage);
+    background: var(--blue);
     color: var(--text-light);
     padding: 0.5rem 0;
     text-align: center;
@@ -64,14 +64,14 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    background-color: var(--sage-light);
+    background-color: var(--light-blue);
     padding: 0.75rem;
     font-weight: bold;
 }
 
 .desktop-nav a {
     text-decoration: none;
-    color: var(--sage-dark);
+    color: var(--dark-blue);
 }
 
 .desktop-nav a:hover {
@@ -101,7 +101,7 @@ section {
 /* Entry headings */
 .entry h3 {
     margin-bottom: 0.2rem;
-    color: var(--sage-dark);
+    color: var(--dark-blue);
 }
 
 .title {
@@ -121,7 +121,7 @@ section {
 footer {
     text-align: center;
     padding: 1rem;
-    background: var(--sage);
+    background: var(--blue);
     color: white;
 }
 
@@ -132,7 +132,7 @@ html {
 
 /* Links */
 a {
-    color: var(--sage-dark);
+    color: var(---dark-blue);
 }
 
 a:hover {
@@ -192,7 +192,7 @@ a:hover {
 
     .mobile-nav {
         display: block;
-        background-color: var(--sage-light);
+        background-color: var(--light-blue);
         padding: 0.5rem 1rem;
         font-weight: bold;
     }
@@ -200,7 +200,7 @@ a:hover {
     .mobile-nav summary {
         cursor: pointer;
         font-size: 1rem;
-        color: var(--sage-dark);
+        color: var(---dark-blue);
         list-style: none;
     }
 
@@ -217,7 +217,7 @@ a:hover {
     .mobile-nav a {
         padding: 0.4rem 0;
         text-decoration: none;
-        color: var(--sage-dark);
+        color: var(--dark-blue);
     }
 
     .mobile-nav a:hover {
